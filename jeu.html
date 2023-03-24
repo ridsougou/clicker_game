@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de carré</title>
+     <!--css-->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="jeu.html">Jeu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Jeu</h1>
+        <div class="game-container">
+            <h1>plateau_jeu Clicker</h1>
+            <div id="plateau_jeu">
+                <div id="carre"></div>
+            </div>
+            <div class="game-info">
+              <div>
+                Score: <span id="score">0</span>
+              </div>
+              <div>
+                Meilleur Score: <span id="bestScore">0</span>
+              </div>
+              <div>
+                Chrono: <span id="chrono">10</span>s
+              </div>
+              <div>
+                <button id="replayBtn">Rejouer</button>
+              </div>
+            </div>
+          </div>
+    </main>
+       <!--js-->
+    <script src="main.js"></script>
+  </body>
+</html>
